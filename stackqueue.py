@@ -19,6 +19,10 @@ class stack:
 			return True
 		return False
 
+	def printStack(self):
+		print (self.store)
+		return 0
+
 
 class queue:
 	def __init__(self):
@@ -40,3 +44,7 @@ class queue:
 		if (self.count==0):
 			return True
 		return False
+
+	def printQ(self):
+		print (self.store)
+		return 0
